@@ -23,18 +23,19 @@ from webdriver_manager.microsoft import EdgeChromiumDriverManager
 URL = "https://stu.mail.ecust.edu.cn/"
 
 # 测试数据
+#保护隐私，自行修改
 VALID_USERS = [
-    {"username": "23013181", "password": "Cqszrr2020", "desc": "账号一"},
-    {"username": "23070066", "password": "F132041013Ecust#", "desc": "账号二"},
+    {"username": "********", "password": "******", "desc": "账号一"},
+    {"username": "********", "password": "******", "desc": "账号二"},
 ]
 
 INVALID_USERS = [
-    {"username": "23013181", "password": "cqszrr2020", "desc": "错误-密码全小写"},
-    {"username": "23013181", "password": "CQSZRR2020", "desc": "错误-密码全大写"},
-    {"username": "23013181", "password": "Cqszrr2021", "desc": "错误-密码错误"},
-    {"username": "23013182", "password": "Cqszrr2020", "desc": "错误-账号不存在"},
-    {"username": "", "password": "Cqszrr2020", "desc": "错误-空账号"},
-    {"username": "23013181", "password": "", "desc": "错误-空密码"},
+    {"username": "********", "password": "******", "desc": "错误-密码全小写"},
+    {"username": "********", "password": "*******", "desc": "错误-密码全大写"},
+    {"username": "********", "password": "******", "desc": "错误-密码错误"},
+    {"username": "********", "password": "******", "desc": "错误-账号不存在"},
+    {"username": "", "password": "******", "desc": "错误-空账号"},
+    {"username": "********", "password": "", "desc": "错误-空密码"},
 ]
 
 # 调试端口和会话文件
