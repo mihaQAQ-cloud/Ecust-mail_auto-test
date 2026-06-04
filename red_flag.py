@@ -19,11 +19,11 @@ from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
 # ==================== 配置区域 ====================
 URL = "https://stu.mail.ecust.edu.cn/"
-USERNAME = "23013181"
-PASSWORD = "Cqszrr2020"
+USERNAME = "********"    #保护隐私，自行修改
+PASSWORD = "******"
 
 # 目标发件人学号（在收件箱中搜索这个学号发来的邮件）
-TARGET_SENDER = "23070066"
+TARGET_SENDER = "********"    #保护隐私，自行修改
 
 # 调试端口
 DEBUG_PORT = 9223
