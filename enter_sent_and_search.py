@@ -23,7 +23,7 @@ PIC_DIR = os.path.join(RESULT_DIR, "pic")
 LOG_DIR = os.path.join(RESULT_DIR, "log")
 
 # 目标收件人
-TARGET_RECIPIENT = "23070066"
+TARGET_RECIPIENT = "********" #保护隐私，自行修改
 
 
 def ensure_dirs():
