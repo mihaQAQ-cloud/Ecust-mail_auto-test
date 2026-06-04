@@ -20,8 +20,8 @@ from folder_nav import FolderNavigator
 from mail_selector import MailSelector
 
 URL = "https://stu.mail.ecust.edu.cn/"
-USERNAME = "23013181"
-PASSWORD = "Cqszrr2020"
+USERNAME = "********"    #保护隐私，自行修改
+PASSWORD = "******"
 DEBUG_PORT = 9225
 SCREENSHOT_DIR = os.path.join("result", "pic")
 MAIN_JSP = "https://stu.mail.ecust.edu.cn/js6/main.jsp"
