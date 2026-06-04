@@ -5,7 +5,7 @@
 ---
 
 ## 项目结构
-甘甜(g) 陶若愚(t) 詹子杰(z)
+甘*(g) 陶*(t) 詹*(z)
 
 | 文件 | 层级 | 职责 |
 |------|------|------|
@@ -61,6 +61,14 @@ pip install selenium webdriver-manager requests
 
 ### 第一步：启动浏览器并登录
 
+出于保密隐私信息，代码中的账号需要个人进行修改:
+all_steps.py
+draft_integration.py
+enter_sent_and_search.py
+login.py;red_flag.py
+sent_integration.py
+single_login.py
+
 运行层级1模块，启动带调试端口的 Edge 浏览器，自动登录邮箱并保存会话：
 
 ```bash
@@ -71,11 +79,8 @@ python single_login.py
 
 ### 第二步：执行全部测试
 
-在另一个终端窗口运行主控程序：
+第一步运行成功后会生成一个前端页面，在前端页面进行操作即可：
 
-```bash
-python test_engine.py
-```
 
 主控程序会自动：
 1. 读取会话信息，连接已登录的浏览器
@@ -159,8 +164,8 @@ python test_engine.py
 ### 登录配置（single_login.py）
 
 ```python
-USERNAME = "23013181"          # 学号
-PASSWORD = "Cqszrr2020"        # 密码
+USERNAME = "2301****"          # 学号
+PASSWORD = "*******"        # 密码
 DEBUG_PORT = 9223              # 浏览器调试端口
 SESSION_FILE = "browser_session.json"  # 会话文件
 ```
