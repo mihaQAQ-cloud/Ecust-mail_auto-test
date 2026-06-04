@@ -15,8 +15,8 @@ from webdriver_manager.microsoft import EdgeChromiumDriverManager
 
 # 配置
 URL = "https://stu.mail.ecust.edu.cn/"
-USERNAME = "23013181"
-PASSWORD = "Cqszrr2020"
+USERNAME = "********"    #保护隐私，自行修改
+PASSWORD = "******"
 
 # 调试端口和会话文件
 DEBUG_PORT = 9223  # 改为9223，避免9222被占用
